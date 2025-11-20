@@ -1,0 +1,64 @@
+# Core Framework Dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Async HTTP and File Operations
+aiohttp>=3.9.0
+aiofiles>=23.2.1
+httpx>=0.25.0
+
+# Web Scraping and Content Processing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+readability-lxml>=0.8.1
+
+# Text Processing and NLP
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain_text_splitters
+sentence-transformers>=2.2.2
+transformers>=4.36.0
+torch>=2.1.0
+tokenizers>=0.15.0
+
+#hugging face
+huggingface_hub[hf_xet]
+
+# Vector Storage and Search
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# CLI and UI
+typer>=0.9.0
+rich>=13.7.0
+python-multipart>=0.0.6
+
+# Standard Library Extensions (usually built-in but listed for completeness)
+# asyncio - built-in
+# json - built-in
+# pickle - built-in
+# time - built-in
+# datetime - built-in
+# pathlib - built-in
+# typing - built-in
+# urllib.parse - built-in
+# contextlib - built-in
+# logging - built-in
+# sys - built-in
+# os - built-in
+# hashlib - built-in
+# re - built-in
+
+# Development and Testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+python-dotenv>=1.0.0
+
+# Optional: GPU Support (uncomment if using CUDA)
+# faiss-gpu>=1.7.4  # Replace faiss-cpu with this for GPU support
+# torch[cuda]>=2.1.0  # Replace torch with this for CUDA support
+
+# Optional: Advanced Model Support
+# accelerate>=0.24.0  # For model acceleration
+# llama-cpp-python>=0.2.20  # For local Llama models

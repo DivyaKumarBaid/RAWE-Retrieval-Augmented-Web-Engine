@@ -1,0 +1,13 @@
+# Example questions for testing the RAG system
+# Lines starting with # are comments and will be ignored
+
+What is BizPay and its key features?
+What services does TransFi offer?
+How does TransFi's payment collection system work?
+What is TransFi's payout solution?
+What compliance and regulatory features does TransFi provide?
+How does TransFi handle foreign exchange and treasury management?
+What are TransFi's main products for fintech companies?
+How does TransFi support cross-border payments?
+What is TransFi's approach to financial technology?
+What solutions does TransFi offer for businesses?
